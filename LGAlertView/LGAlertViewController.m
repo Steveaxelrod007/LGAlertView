@@ -92,4 +92,8 @@
     return [UIApplication sharedApplication].statusBarStyle;
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 @end
